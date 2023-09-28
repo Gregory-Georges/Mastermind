@@ -1,11 +1,13 @@
-import Random
+from mastermind import Mastermind
+
+
 
 def main() :
 
-	Mastermind game
+	game = Mastermind()
 	game.run();
 	
 	
 	
-if __name__ == '__main__'
+if __name__ == '__main__' :
 	main()
